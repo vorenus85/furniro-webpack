@@ -1,0 +1,31 @@
+{
+  "name": "furniro-v0webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack watch",
+    "start": "webpack serve --mode development --open --live-reload",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": ["webpack", "ejs", "tailwindcss", "ecommerce"],
+  "author": "Janos Perge",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.2",
+    "ejs-compiled-loader": "^3.1.0",
+    "ejs-loader": "^0.5.0",
+    "ejs": "^3.1.10",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^3.4.6",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
